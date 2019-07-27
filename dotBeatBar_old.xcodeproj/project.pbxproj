@@ -81,6 +81,8 @@
 		9987EE1722EBF09900C95AC0 = {
 			isa = PBXGroup;
 			children = (
+				9987EE5322EC010E00C95AC0 /* screenshot.png */,
+				9987EE5222EC00C400C95AC0 /* README.md */,
 				9987EE2222EBF09900C95AC0 /* dotBeatBar_old */,
 				9987EE3522EBF09A00C95AC0 /* dotBeatBar_oldTests */,
 				9987EE4022EBF09A00C95AC0 /* dotBeatBar_oldUITests */,
@@ -107,8 +109,6 @@
 				9987EE2922EBF09A00C95AC0 /* Main.storyboard */,
 				9987EE2C22EBF09A00C95AC0 /* Info.plist */,
 				9987EE2D22EBF09A00C95AC0 /* dotBeatBar_old.entitlements */,
-				9987EE5322EC010E00C95AC0 /* screenshot.png */,
-				9987EE5222EC00C400C95AC0 /* README.md */,
 			);
 			path = dotBeatBar_old;
 			sourceTree = "<group>";
