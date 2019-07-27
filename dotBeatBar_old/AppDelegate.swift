@@ -6,8 +6,8 @@
 //  Copyright © 2019 Aaron Bieber. All rights reserved.
 //
 
-import Cocoa
 import Beat
+import Cocoa
 import Foundation
 
 @NSApplicationMain
@@ -21,7 +21,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         updateStatBar(self)
-        timer = Timer.scheduledTimer(timeInterval: 60, target: self, selector: #selector(updateStatBar), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 11,
+                                     target: self,
+                                     selector: #selector(updateStatBar),
+                                     userInfo: nil,
+                                     repeats: true)
 
         let menu = NSMenu()
         menu.addItem(NSMenuItem(title: "Quit", action:
