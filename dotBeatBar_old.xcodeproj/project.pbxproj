@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		9987EE2B22EBF09A00C95AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9987EE2922EBF09A00C95AC0 /* Main.storyboard */; };
 		9987EE3722EBF09A00C95AC0 /* dotBeatBar_oldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987EE3622EBF09A00C95AC0 /* dotBeatBar_oldTests.swift */; };
 		9987EE4222EBF09A00C95AC0 /* dotBeatBar_oldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987EE4122EBF09A00C95AC0 /* dotBeatBar_oldUITests.swift */; };
+		9987EE5122EBF27F00C95AC0 /* Beat in Frameworks */ = {isa = PBXBuildFile; productRef = 9987EE5022EBF27F00C95AC0 /* Beat */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9987EE5122EBF27F00C95AC0 /* Beat in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +142,9 @@
 			dependencies = (
 			);
 			name = dotBeatBar_old;
+			packageProductDependencies = (
+				9987EE5022EBF27F00C95AC0 /* Beat */,
+			);
 			productName = dotBeatBar_old;
 			productReference = 9987EE2022EBF09900C95AC0 /* dotBeatBar_old.app */;
 			productType = "com.apple.product-type.application";
@@ -212,6 +217,9 @@
 				Base,
 			);
 			mainGroup = 9987EE1722EBF09900C95AC0;
+			packageReferences = (
+				9987EE4F22EBF27F00C95AC0 /* XCRemoteSwiftPackageReference "Beat" */,
+			);
 			productRefGroup = 9987EE2122EBF09900C95AC0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -577,6 +585,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9987EE4F22EBF27F00C95AC0 /* XCRemoteSwiftPackageReference "Beat" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/qbit/Beat";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9987EE5022EBF27F00C95AC0 /* Beat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9987EE4F22EBF27F00C95AC0 /* XCRemoteSwiftPackageReference "Beat" */;
+			productName = Beat;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9987EE1822EBF09900C95AC0 /* Project object */;
 }
