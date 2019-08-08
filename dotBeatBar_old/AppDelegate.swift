@@ -16,12 +16,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     let si = NSStatusBar.system.statusItem(withLength:NSStatusItem.variableLength)
     @objc func updateStatBar(_ sender: Any?) {
         if let button = si.button {
-            button.title = "@\(Beat(Date().timeIntervalSince1970).text())"
+            button.title = "@\(Beat().text())"
         }
     }
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         updateStatBar(self)
-        timer = Timer.scheduledTimer(timeInterval: 11,
+        timer = Timer.scheduledTimer(timeInterval: 1,
                                      target: self,
                                      selector: #selector(updateStatBar),
                                      userInfo: nil,

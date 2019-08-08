@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9912D2F622EFC80B004A7802 /* Beat in Frameworks */ = {isa = PBXBuildFile; productRef = 9912D2F522EFC80B004A7802 /* Beat */; };
 		9987EE2422EBF09900C95AC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987EE2322EBF09900C95AC0 /* AppDelegate.swift */; };
 		9987EE2622EBF09900C95AC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987EE2522EBF09900C95AC0 /* ViewController.swift */; };
 		9987EE2822EBF09A00C95AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9987EE2722EBF09A00C95AC0 /* Assets.xcassets */; };
 		9987EE2B22EBF09A00C95AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9987EE2922EBF09A00C95AC0 /* Main.storyboard */; };
 		9987EE3722EBF09A00C95AC0 /* dotBeatBar_oldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987EE3622EBF09A00C95AC0 /* dotBeatBar_oldTests.swift */; };
 		9987EE4222EBF09A00C95AC0 /* dotBeatBar_oldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987EE4122EBF09A00C95AC0 /* dotBeatBar_oldUITests.swift */; };
-		9987EE5122EBF27F00C95AC0 /* Beat in Frameworks */ = {isa = PBXBuildFile; productRef = 9987EE5022EBF27F00C95AC0 /* Beat */; };
 		9987EE5422EC010E00C95AC0 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 9987EE5322EC010E00C95AC0 /* screenshot.png */; };
 /* End PBXBuildFile section */
 
@@ -57,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9987EE5122EBF27F00C95AC0 /* Beat in Frameworks */,
+				9912D2F622EFC80B004A7802 /* Beat in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +78,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9912D2F422EFC80B004A7802 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9987EE1722EBF09900C95AC0 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +94,7 @@
 				9987EE3522EBF09A00C95AC0 /* dotBeatBar_oldTests */,
 				9987EE4022EBF09A00C95AC0 /* dotBeatBar_oldUITests */,
 				9987EE2122EBF09900C95AC0 /* Products */,
+				9912D2F422EFC80B004A7802 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,7 +156,7 @@
 			);
 			name = dotBeatBar_old;
 			packageProductDependencies = (
-				9987EE5022EBF27F00C95AC0 /* Beat */,
+				9912D2F522EFC80B004A7802 /* Beat */,
 			);
 			productName = dotBeatBar_old;
 			productReference = 9987EE2022EBF09900C95AC0 /* dotBeatBar_old.app */;
@@ -366,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -434,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = dotBeatBar_old/dotBeatBar_old.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9ZZ8BB7Y4Q;
@@ -454,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = dotBeatBar_old/dotBeatBar_old.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9ZZ8BB7Y4Q;
@@ -598,13 +608,13 @@
 			repositoryURL = "https://github.com/qbit/Beat";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.1;
+				minimumVersion = 1.0.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9987EE5022EBF27F00C95AC0 /* Beat */ = {
+		9912D2F522EFC80B004A7802 /* Beat */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 9987EE4F22EBF27F00C95AC0 /* XCRemoteSwiftPackageReference "Beat" */;
 			productName = Beat;
