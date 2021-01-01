@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Beat",
+        "repositoryURL": "https://github.com/qbit/Beat",
+        "state": {
+          "branch": null,
+          "revision": "dc9899f777f03127082708f5f326c50561627536",
+          "version": "1.0.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

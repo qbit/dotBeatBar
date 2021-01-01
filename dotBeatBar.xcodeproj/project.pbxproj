@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -35,17 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9987EE2022EBF09900C95AC0 /* dotBeatBar_old.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dotBeatBar_old.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9987EE2022EBF09900C95AC0 /* dotBeatBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dotBeatBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9987EE2322EBF09900C95AC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9987EE2522EBF09900C95AC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9987EE2722EBF09A00C95AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9987EE2A22EBF09A00C95AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9987EE2C22EBF09A00C95AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9987EE2D22EBF09A00C95AC0 /* dotBeatBar_old.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dotBeatBar_old.entitlements; sourceTree = "<group>"; };
-		9987EE3222EBF09A00C95AC0 /* dotBeatBar_oldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dotBeatBar_oldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9987EE3222EBF09A00C95AC0 /* dotBeatBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dotBeatBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9987EE3622EBF09A00C95AC0 /* dotBeatBar_oldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dotBeatBar_oldTests.swift; sourceTree = "<group>"; };
 		9987EE3822EBF09A00C95AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9987EE3D22EBF09A00C95AC0 /* dotBeatBar_oldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dotBeatBar_oldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9987EE3D22EBF09A00C95AC0 /* dotBeatBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dotBeatBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9987EE4122EBF09A00C95AC0 /* dotBeatBar_oldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dotBeatBar_oldUITests.swift; sourceTree = "<group>"; };
 		9987EE4322EBF09A00C95AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9987EE5222EC00C400C95AC0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -101,9 +101,9 @@
 		9987EE2122EBF09900C95AC0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9987EE2022EBF09900C95AC0 /* dotBeatBar_old.app */,
-				9987EE3222EBF09A00C95AC0 /* dotBeatBar_oldTests.xctest */,
-				9987EE3D22EBF09A00C95AC0 /* dotBeatBar_oldUITests.xctest */,
+				9987EE2022EBF09900C95AC0 /* dotBeatBar.app */,
+				9987EE3222EBF09A00C95AC0 /* dotBeatBarTests.xctest */,
+				9987EE3D22EBF09A00C95AC0 /* dotBeatBarUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,9 +142,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9987EE1F22EBF09900C95AC0 /* dotBeatBar_old */ = {
+		9987EE1F22EBF09900C95AC0 /* dotBeatBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9987EE4622EBF09A00C95AC0 /* Build configuration list for PBXNativeTarget "dotBeatBar_old" */;
+			buildConfigurationList = 9987EE4622EBF09A00C95AC0 /* Build configuration list for PBXNativeTarget "dotBeatBar" */;
 			buildPhases = (
 				9987EE1C22EBF09900C95AC0 /* Sources */,
 				9987EE1D22EBF09900C95AC0 /* Frameworks */,
@@ -154,17 +154,17 @@
 			);
 			dependencies = (
 			);
-			name = dotBeatBar_old;
+			name = dotBeatBar;
 			packageProductDependencies = (
 				9912D2F522EFC80B004A7802 /* Beat */,
 			);
 			productName = dotBeatBar_old;
-			productReference = 9987EE2022EBF09900C95AC0 /* dotBeatBar_old.app */;
+			productReference = 9987EE2022EBF09900C95AC0 /* dotBeatBar.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9987EE3122EBF09A00C95AC0 /* dotBeatBar_oldTests */ = {
+		9987EE3122EBF09A00C95AC0 /* dotBeatBarTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9987EE4922EBF09A00C95AC0 /* Build configuration list for PBXNativeTarget "dotBeatBar_oldTests" */;
+			buildConfigurationList = 9987EE4922EBF09A00C95AC0 /* Build configuration list for PBXNativeTarget "dotBeatBarTests" */;
 			buildPhases = (
 				9987EE2E22EBF09A00C95AC0 /* Sources */,
 				9987EE2F22EBF09A00C95AC0 /* Frameworks */,
@@ -175,14 +175,14 @@
 			dependencies = (
 				9987EE3422EBF09A00C95AC0 /* PBXTargetDependency */,
 			);
-			name = dotBeatBar_oldTests;
+			name = dotBeatBarTests;
 			productName = dotBeatBar_oldTests;
-			productReference = 9987EE3222EBF09A00C95AC0 /* dotBeatBar_oldTests.xctest */;
+			productReference = 9987EE3222EBF09A00C95AC0 /* dotBeatBarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9987EE3C22EBF09A00C95AC0 /* dotBeatBar_oldUITests */ = {
+		9987EE3C22EBF09A00C95AC0 /* dotBeatBarUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9987EE4C22EBF09A00C95AC0 /* Build configuration list for PBXNativeTarget "dotBeatBar_oldUITests" */;
+			buildConfigurationList = 9987EE4C22EBF09A00C95AC0 /* Build configuration list for PBXNativeTarget "dotBeatBarUITests" */;
 			buildPhases = (
 				9987EE3922EBF09A00C95AC0 /* Sources */,
 				9987EE3A22EBF09A00C95AC0 /* Frameworks */,
@@ -193,9 +193,9 @@
 			dependencies = (
 				9987EE3F22EBF09A00C95AC0 /* PBXTargetDependency */,
 			);
-			name = dotBeatBar_oldUITests;
+			name = dotBeatBarUITests;
 			productName = dotBeatBar_oldUITests;
-			productReference = 9987EE3D22EBF09A00C95AC0 /* dotBeatBar_oldUITests.xctest */;
+			productReference = 9987EE3D22EBF09A00C95AC0 /* dotBeatBarUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +205,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "Aaron Bieber";
 				TargetAttributes = {
 					9987EE1F22EBF09900C95AC0 = {
@@ -221,8 +221,8 @@
 					};
 				};
 			};
-			buildConfigurationList = 9987EE1B22EBF09900C95AC0 /* Build configuration list for PBXProject "dotBeatBar_old" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 9987EE1B22EBF09900C95AC0 /* Build configuration list for PBXProject "dotBeatBar" */;
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -237,9 +237,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9987EE1F22EBF09900C95AC0 /* dotBeatBar_old */,
-				9987EE3122EBF09A00C95AC0 /* dotBeatBar_oldTests */,
-				9987EE3C22EBF09A00C95AC0 /* dotBeatBar_oldUITests */,
+				9987EE1F22EBF09900C95AC0 /* dotBeatBar */,
+				9987EE3122EBF09A00C95AC0 /* dotBeatBarTests */,
+				9987EE3C22EBF09A00C95AC0 /* dotBeatBarUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -302,12 +302,12 @@
 /* Begin PBXTargetDependency section */
 		9987EE3422EBF09A00C95AC0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9987EE1F22EBF09900C95AC0 /* dotBeatBar_old */;
+			target = 9987EE1F22EBF09900C95AC0 /* dotBeatBar */;
 			targetProxy = 9987EE3322EBF09A00C95AC0 /* PBXContainerItemProxy */;
 		};
 		9987EE3F22EBF09A00C95AC0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9987EE1F22EBF09900C95AC0 /* dotBeatBar_old */;
+			target = 9987EE1F22EBF09900C95AC0 /* dotBeatBar */;
 			targetProxy = 9987EE3E22EBF09A00C95AC0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -350,6 +350,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -374,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -410,6 +411,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -428,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -496,7 +498,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bolddaemon.com.dotBeatBar-oldTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dotBeatBar_old.app/Contents/MacOS/dotBeatBar_old";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dotBeatBar.app/Contents/MacOS/dotBeatBar";
 			};
 			name = Debug;
 		};
@@ -517,7 +519,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bolddaemon.com.dotBeatBar-oldTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dotBeatBar_old.app/Contents/MacOS/dotBeatBar_old";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dotBeatBar.app/Contents/MacOS/dotBeatBar";
 			};
 			name = Release;
 		};
@@ -564,7 +566,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9987EE1B22EBF09900C95AC0 /* Build configuration list for PBXProject "dotBeatBar_old" */ = {
+		9987EE1B22EBF09900C95AC0 /* Build configuration list for PBXProject "dotBeatBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9987EE4422EBF09A00C95AC0 /* Debug */,
@@ -573,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9987EE4622EBF09A00C95AC0 /* Build configuration list for PBXNativeTarget "dotBeatBar_old" */ = {
+		9987EE4622EBF09A00C95AC0 /* Build configuration list for PBXNativeTarget "dotBeatBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9987EE4722EBF09A00C95AC0 /* Debug */,
@@ -582,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9987EE4922EBF09A00C95AC0 /* Build configuration list for PBXNativeTarget "dotBeatBar_oldTests" */ = {
+		9987EE4922EBF09A00C95AC0 /* Build configuration list for PBXNativeTarget "dotBeatBarTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9987EE4A22EBF09A00C95AC0 /* Debug */,
@@ -591,7 +593,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9987EE4C22EBF09A00C95AC0 /* Build configuration list for PBXNativeTarget "dotBeatBar_oldUITests" */ = {
+		9987EE4C22EBF09A00C95AC0 /* Build configuration list for PBXNativeTarget "dotBeatBarUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9987EE4D22EBF09A00C95AC0 /* Debug */,
