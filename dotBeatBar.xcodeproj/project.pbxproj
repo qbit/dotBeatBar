@@ -12,8 +12,8 @@
 		9987EE2622EBF09900C95AC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987EE2522EBF09900C95AC0 /* ViewController.swift */; };
 		9987EE2822EBF09A00C95AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9987EE2722EBF09A00C95AC0 /* Assets.xcassets */; };
 		9987EE2B22EBF09A00C95AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9987EE2922EBF09A00C95AC0 /* Main.storyboard */; };
-		9987EE3722EBF09A00C95AC0 /* dotBeatBar_oldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987EE3622EBF09A00C95AC0 /* dotBeatBar_oldTests.swift */; };
-		9987EE4222EBF09A00C95AC0 /* dotBeatBar_oldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987EE4122EBF09A00C95AC0 /* dotBeatBar_oldUITests.swift */; };
+		9987EE3722EBF09A00C95AC0 /* dotBeatBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987EE3622EBF09A00C95AC0 /* dotBeatBarTests.swift */; };
+		9987EE4222EBF09A00C95AC0 /* dotBeatBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9987EE4122EBF09A00C95AC0 /* dotBeatBarUITests.swift */; };
 		9987EE5422EC010E00C95AC0 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 9987EE5322EC010E00C95AC0 /* screenshot.png */; };
 /* End PBXBuildFile section */
 
@@ -23,14 +23,14 @@
 			containerPortal = 9987EE1822EBF09900C95AC0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9987EE1F22EBF09900C95AC0;
-			remoteInfo = dotBeatBar_old;
+			remoteInfo = dotBeatBar;
 		};
 		9987EE3E22EBF09A00C95AC0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9987EE1822EBF09900C95AC0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9987EE1F22EBF09900C95AC0;
-			remoteInfo = dotBeatBar_old;
+			remoteInfo = dotBeatBar;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -41,12 +41,12 @@
 		9987EE2722EBF09A00C95AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9987EE2A22EBF09A00C95AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9987EE2C22EBF09A00C95AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9987EE2D22EBF09A00C95AC0 /* dotBeatBar_old.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dotBeatBar_old.entitlements; sourceTree = "<group>"; };
+		9987EE2D22EBF09A00C95AC0 /* dotBeatBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dotBeatBar.entitlements; sourceTree = "<group>"; };
 		9987EE3222EBF09A00C95AC0 /* dotBeatBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dotBeatBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9987EE3622EBF09A00C95AC0 /* dotBeatBar_oldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dotBeatBar_oldTests.swift; sourceTree = "<group>"; };
+		9987EE3622EBF09A00C95AC0 /* dotBeatBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dotBeatBarTests.swift; sourceTree = "<group>"; };
 		9987EE3822EBF09A00C95AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9987EE3D22EBF09A00C95AC0 /* dotBeatBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dotBeatBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9987EE4122EBF09A00C95AC0 /* dotBeatBar_oldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dotBeatBar_oldUITests.swift; sourceTree = "<group>"; };
+		9987EE4122EBF09A00C95AC0 /* dotBeatBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dotBeatBarUITests.swift; sourceTree = "<group>"; };
 		9987EE4322EBF09A00C95AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9987EE5222EC00C400C95AC0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9987EE5322EC010E00C95AC0 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
@@ -90,9 +90,9 @@
 			children = (
 				9987EE5322EC010E00C95AC0 /* screenshot.png */,
 				9987EE5222EC00C400C95AC0 /* README.md */,
-				9987EE2222EBF09900C95AC0 /* dotBeatBar_old */,
-				9987EE3522EBF09A00C95AC0 /* dotBeatBar_oldTests */,
-				9987EE4022EBF09A00C95AC0 /* dotBeatBar_oldUITests */,
+				9987EE2222EBF09900C95AC0 /* dotBeatBar */,
+				9987EE3522EBF09A00C95AC0 /* dotBeatBarTests */,
+				9987EE4022EBF09A00C95AC0 /* dotBeatBarUITests */,
 				9987EE2122EBF09900C95AC0 /* Products */,
 				9912D2F422EFC80B004A7802 /* Frameworks */,
 			);
@@ -108,7 +108,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9987EE2222EBF09900C95AC0 /* dotBeatBar_old */ = {
+		9987EE2222EBF09900C95AC0 /* dotBeatBar */ = {
 			isa = PBXGroup;
 			children = (
 				9987EE2322EBF09900C95AC0 /* AppDelegate.swift */,
@@ -116,27 +116,27 @@
 				9987EE2722EBF09A00C95AC0 /* Assets.xcassets */,
 				9987EE2922EBF09A00C95AC0 /* Main.storyboard */,
 				9987EE2C22EBF09A00C95AC0 /* Info.plist */,
-				9987EE2D22EBF09A00C95AC0 /* dotBeatBar_old.entitlements */,
+				9987EE2D22EBF09A00C95AC0 /* dotBeatBar.entitlements */,
 			);
-			path = dotBeatBar_old;
+			path = dotBeatBar;
 			sourceTree = "<group>";
 		};
-		9987EE3522EBF09A00C95AC0 /* dotBeatBar_oldTests */ = {
+		9987EE3522EBF09A00C95AC0 /* dotBeatBarTests */ = {
 			isa = PBXGroup;
 			children = (
-				9987EE3622EBF09A00C95AC0 /* dotBeatBar_oldTests.swift */,
+				9987EE3622EBF09A00C95AC0 /* dotBeatBarTests.swift */,
 				9987EE3822EBF09A00C95AC0 /* Info.plist */,
 			);
-			path = dotBeatBar_oldTests;
+			path = dotBeatBarTests;
 			sourceTree = "<group>";
 		};
-		9987EE4022EBF09A00C95AC0 /* dotBeatBar_oldUITests */ = {
+		9987EE4022EBF09A00C95AC0 /* dotBeatBarUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9987EE4122EBF09A00C95AC0 /* dotBeatBar_oldUITests.swift */,
+				9987EE4122EBF09A00C95AC0 /* dotBeatBarUITests.swift */,
 				9987EE4322EBF09A00C95AC0 /* Info.plist */,
 			);
-			path = dotBeatBar_oldUITests;
+			path = dotBeatBarUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,7 +158,7 @@
 			packageProductDependencies = (
 				9912D2F522EFC80B004A7802 /* Beat */,
 			);
-			productName = dotBeatBar_old;
+			productName = dotBeatBar;
 			productReference = 9987EE2022EBF09900C95AC0 /* dotBeatBar.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -176,7 +176,7 @@
 				9987EE3422EBF09A00C95AC0 /* PBXTargetDependency */,
 			);
 			name = dotBeatBarTests;
-			productName = dotBeatBar_oldTests;
+			productName = dotBeatBarTests;
 			productReference = 9987EE3222EBF09A00C95AC0 /* dotBeatBarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -194,7 +194,7 @@
 				9987EE3F22EBF09A00C95AC0 /* PBXTargetDependency */,
 			);
 			name = dotBeatBarUITests;
-			productName = dotBeatBar_oldUITests;
+			productName = dotBeatBarUITests;
 			productReference = 9987EE3D22EBF09A00C95AC0 /* dotBeatBarUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -285,7 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9987EE3722EBF09A00C95AC0 /* dotBeatBar_oldTests.swift in Sources */,
+				9987EE3722EBF09A00C95AC0 /* dotBeatBarTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9987EE4222EBF09A00C95AC0 /* dotBeatBar_oldUITests.swift in Sources */,
+				9987EE4222EBF09A00C95AC0 /* dotBeatBarUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,18 +443,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = dotBeatBar_old/dotBeatBar_old.entitlements;
+				CODE_SIGN_ENTITLEMENTS = dotBeatBar/dotBeatBar.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9ZZ8BB7Y4Q;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = dotBeatBar_old/Info.plist;
+				INFOPLIST_FILE = dotBeatBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bolddaemon.com.dotBeatBar-old";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bolddaemon.com.dotBeatBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -464,18 +464,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = dotBeatBar_old/dotBeatBar_old.entitlements;
+				CODE_SIGN_ENTITLEMENTS = dotBeatBar/dotBeatBar.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9ZZ8BB7Y4Q;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = dotBeatBar_old/Info.plist;
+				INFOPLIST_FILE = dotBeatBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bolddaemon.com.dotBeatBar-old";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bolddaemon.com.dotBeatBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -486,10 +486,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9ZZ8BB7Y4Q;
-				INFOPLIST_FILE = dotBeatBar_oldTests/Info.plist;
+				INFOPLIST_FILE = dotBeatBarTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -507,10 +508,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9ZZ8BB7Y4Q;
-				INFOPLIST_FILE = dotBeatBar_oldTests/Info.plist;
+				INFOPLIST_FILE = dotBeatBarTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -527,10 +529,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9ZZ8BB7Y4Q;
-				INFOPLIST_FILE = dotBeatBar_oldUITests/Info.plist;
+				INFOPLIST_FILE = dotBeatBarUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -539,7 +542,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bolddaemon.com.dotBeatBar-oldUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = dotBeatBar_old;
+				TEST_TARGET_NAME = dotBeatBar;
 			};
 			name = Debug;
 		};
@@ -547,10 +550,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9ZZ8BB7Y4Q;
-				INFOPLIST_FILE = dotBeatBar_oldUITests/Info.plist;
+				INFOPLIST_FILE = dotBeatBarUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -559,7 +563,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bolddaemon.com.dotBeatBar-oldUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = dotBeatBar_old;
+				TEST_TARGET_NAME = dotBeatBar;
 			};
 			name = Release;
 		};

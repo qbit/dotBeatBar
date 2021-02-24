@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  dotBeatBar_old
+//  dotBeatBar
 //
 //  Created by Aaron Bieber on 7/26/19.
 //  Copyright © 2019 Aaron Bieber. All rights reserved.

@@ -1,6 +1,6 @@
 //
-//  dotBeatBar_oldUITests.swift
-//  dotBeatBar_oldUITests
+//  dotBeatBarUITests.swift
+//  dotBeatBarUITests
 //
 //  Created by Aaron Bieber on 7/26/19.
 //  Copyright © 2019 Aaron Bieber. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class dotBeatBar_oldUITests: XCTestCase {
+class dotBeatBarUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
