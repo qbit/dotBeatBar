@@ -48,14 +48,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                                      repeats: true)
 
         let menu = NSMenu()
-
         menu.addItem(NSMenuItem(title: "Quit", action:
-            #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
-        
+                                    #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
         si.menu = menu
         
-        _ = dnc.addObserver(forName: .init("com.apple.screenIsLocked"),
-                                       object: nil, queue: .main) { _ in
+        _ = dnc.addObserver(
+            forName: .init("com.apple.screenIsLocked"),
+                                    object: nil, queue: .main) { _ in
             NSLog("Screen Locked.")
             self.runTask(cmd: "/usr/bin/ssh-add", args: ["-D"])
             self.runTask(cmd: "/usr/bin/sudo", args: ["-K"])
